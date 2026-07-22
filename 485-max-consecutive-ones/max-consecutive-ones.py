@@ -7,6 +7,7 @@ class Solution:
                 counter = counter + 1
                 maxcount = max(maxcount,counter)
             else:
+        
                 counter = 0
         
         return maxcount
