@@ -1,6 +1,7 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        if len(nums) < 2:
+        n = len(nums)
+        if n < 2:
             return nums[0]
 
         n = len(nums)
